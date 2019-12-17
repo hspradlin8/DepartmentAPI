@@ -30,6 +30,11 @@ namespace CoffeeShop.Controllers
             }
         }
 
+
+        /// <summary>
+        /// Gets a list of all departments from database
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> Get()
         {
